@@ -6,9 +6,7 @@ describe("getMessage()", () => {
     const result = getMessage(number);
     expect(result).toBe("+ number");
   });
-});
 
-describe("getMessage()", () => {
   it("Return '- number' when the input is negative", () => {
     const number = -2;
     const result = getMessage(number);
