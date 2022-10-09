@@ -12,4 +12,10 @@ describe("getMessage()", () => {
     const result = getMessage(number);
     expect(result).toBe("- number");
   });
+
+  it("Return 'zero' when the input is zero", () => {
+    const number = 0;
+    const result = getMessage(number);
+    expect(result).toBe("zero");
+  });
 });
