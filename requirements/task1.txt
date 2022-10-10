@@ -1,7 +1,7 @@
 Create getMessage() function that takes one argument as an input
 and returns an out put as per table bellow
 
-| input           | Output   |
+| Input           | Output   |
 ------------------------------
 | Positive number | + number |
 | Negative number | - number |
